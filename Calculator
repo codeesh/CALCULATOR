@@ -1,0 +1,28 @@
+// Using if else method
+import java.util.Scanner;
+public class Calculator
+{
+
+    public static void main (String [] args)
+    {
+
+        System.out.println("!!! Calculator Using If else method !!!");
+
+// "+" , "-" , "*" , "/" 
+    Scanner a1 = new Scanner (System.in);
+    int a;
+    System.out.println("Enter a = ");
+    a = a1.nextInt();
+
+    Scanner b2 = new Scanner (System.in);
+    int b;
+    System.out.println("Enter b = ");
+    b = b2.nextInt();
+
+        int sum;
+        sum = a+b;
+
+        System.out.println("Sum = " +sum);
+    }
+
+}
